@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        { 
+            "name": "entry_points - klocs",
+            "type": "python",
+            "request": "launch",
+            // "program": "${file}",
+            "program": "\"${workspaceFolder}/klocs.py\"",
+            "console": "integratedTerminal",
+            "args": [
+                ".", "--gitignore", ".gitignore", "--extension", ".py", ".ps1", "-vv"
+            ]
+        },
+    ]
+}
